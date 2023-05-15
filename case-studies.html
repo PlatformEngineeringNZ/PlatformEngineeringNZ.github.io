@@ -6,7 +6,7 @@ layout: page
 	<div class="container">
 			<div class="row">
 					<div class="col-lg-8 col-lg-offset-2 text-center">
-							<h2 class="section-heading">Case Studies</h2>
+							<h1 class="section-heading">Case Studies</h1>
 							<hr class="light">
 							<p>Together, we've worked with a number of clients in a wide range of industries, and at various levels of engineering maturity.</p>
 							<p>The following case studies demonstrate some of the types of engagements we've been involved with in the past.</p>
@@ -16,23 +16,22 @@ layout: page
 </section>
 
 
-
 <section class="bg-secondary" id="content-wrapper">
-	<div class="container">
-			<div class="row">
-					<div class="col-lg-8 col-lg-offset-2 text-center">
+    <div class="container">
+        <div class="row">
 
-						{% for casestudy in site.casestudies %}
+            {% for casestudy in site.casestudies %}
 
-						<section>
-							<i class="fa fa-solid fa-circle-check fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-							<a href="{{ casestudy.url }}"><h3>{{ casestudy.title }}</h2></a>
-							<p>{{ casestudy.excerpt | markdownify }}</p>
-						</section>
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x {{ casestudy.icon }} wow bounceIn text-primary"></i>
+                    <a href="{{ casestudy.url }}"><h3>{{ casestudy.title }}</h2></a>
+                    <p class="text-muted">{{ casestudy.excerpt }}</p>
+                </div>
+            </div> 
 
-						{% endfor %}
+            {% endfor %}
 
-					</div>
-			</div>
-	</div>
+        </div>
+    </div>
 </section>
