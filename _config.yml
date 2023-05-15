@@ -6,15 +6,20 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 twitter_username:
-github_username:
+github_username: platformengineeringnz
 
 collections_dir: collections
 collections:
-  - team
-  - principles
-  - technologies
-  - casestudies
-  - services
+  casestudies:
+    output: true
+  principles:
+    output: false
+  services:
+    output: false
+  team:
+    output: false
+  technologies:
+    output: false
 
 excerpt_separator: <!--more-->
 markdown: kramdown
