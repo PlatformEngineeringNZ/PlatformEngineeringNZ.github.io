@@ -1,0 +1,28 @@
+<section id="technologies">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Technology Experts</h2>
+                <p class="text-muted">We're experts when it comes to building supercharged platforms for your teams. Tap into this expertise and get your product teams moving faster than you can imagine.</p>
+                <hr class="primary">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+
+            {% for technology in site.technologies %}
+
+            <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                    <i class="fa fa-4x {{ technology.icon }} wow bounceIn text-primary"></i>
+                    <h3>{{ technology.title }}</h3>
+                    <p class="text-muted">{{ technology.excerpt }}</p>
+                </div>
+            </div> 
+
+            {% endfor %}
+
+        </div>
+    </div>
+</section>

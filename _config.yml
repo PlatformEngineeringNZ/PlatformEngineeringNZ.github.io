@@ -8,6 +8,14 @@ url: "" # the base hostname & protocol for your site
 twitter_username:
 github_username:
 
+collections_dir: collections
+collections:
+  - team
+  - principles
+  - technologies
+  - casestudies
+  - services
+
 excerpt_separator: <!--more-->
 markdown: kramdown
 kramdown:
