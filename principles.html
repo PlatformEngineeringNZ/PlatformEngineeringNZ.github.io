@@ -17,20 +17,30 @@ layout: page
 
 <section class="bg-secondary" id="content-wrapper">
     <div class="container">
-        <div class="row">
 
-            {% for principle in site.principles %}
+        {% for principle in site.principles %}
 
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x {{ principle.icon }} wow bounceIn text-primary"></i>
-                    <a href="{{ principle.url }}"><h3>{{ principle.title }}</h2></a>
-                    <p class="text-muted">{{ principle.excerpt }}</p>
+            <!-- Split into rows of 3 -->
+            {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
+
+            {% if modulo == '0' or forloop.first %}
+                <div class="row">
+            {% endif %}
+
+                    <div class="col-lg-4 col-md-6 text-center">
+                        <div class="service-box">
+                            <i class="fa fa-4x {{ principle.icon }} wow bounceIn text-primary"></i>
+                            <a href="{{ principle.url }}"><h3>{{ principle.title }}</h2></a>
+                            <p class="text-muted">{{ principle.excerpt }}</p>
+                        </div>
+                    </div>
+
+            <!-- New row when we hit 2 -->
+            {% if modulo == '2' or forloop.last %}
                 </div>
-            </div> 
+            {% endif %}
 
-            {% endfor %}
+        {% endfor %}
 
-        </div>
     </div>
 </section>

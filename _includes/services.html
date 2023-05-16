@@ -11,20 +11,33 @@
             </div>
         </div>
         <div class="container">
-            <div class="row">
+
+            <div class="container">
 
                 {% for service in site.services %}
 
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x {{ service.icon }} wow bounceIn text-primary"></i>
-                        <h3 class="text-muted">{{ service.title }}</h3>
-                        <p class="text-muted">{{ service.excerpt }}</p>
-                    </div>
-                </div> 
+                    <!-- Split into rows of 4 -->
+                    {% capture modulo %}{{ forloop.index0 | mod:4 }}{% endcapture %}
 
+                    {% if modulo == '0' or forloop.first %}
+                        <div class="row">
+                    {% endif %}
+
+                            <div class="col-lg-3 col-md-6 text-center">
+                                <div class="service-box">
+                                    <i class="fa fa-4x {{ service.icon }} wow bounceIn text-primary"></i>
+                                    <h3 class="text-muted">{{ service.title }}</h3>
+                                    <p class="text-muted">{{ service.excerpt }}</p>
+                                </div>
+                            </div>
+
+                    <!-- New row when we hit 3 -->
+                    {% if modulo == '3' or forloop.last %}
+                        </div>
+                    {% endif %}
+        
                 {% endfor %}
-
+        
             </div>
         </div>
     </section>
