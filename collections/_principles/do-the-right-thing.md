@@ -1,5 +1,4 @@
 ---
-layout: no-sidebar
 title: "Do the right thing"
 ---
 

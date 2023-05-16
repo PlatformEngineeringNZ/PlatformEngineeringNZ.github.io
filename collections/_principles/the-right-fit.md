@@ -1,5 +1,4 @@
 ---
-layout: no-sidebar
 title: "The right fit"
 ---
 

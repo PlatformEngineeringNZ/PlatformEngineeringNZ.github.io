@@ -1,5 +1,4 @@
 ---
-layout: no-sidebar
 title: "Shift left"
 ---
 
