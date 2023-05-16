@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Modern Platforms (Financial Services)"
+icon: "fa-wand-sparkles"
 ---
 
 Our client had moved to Azure from on-prem. This was mostly a lift and shift. This meant that the organisation was able to quickly move to cloud but that resulted in a lot of inefficiencies.

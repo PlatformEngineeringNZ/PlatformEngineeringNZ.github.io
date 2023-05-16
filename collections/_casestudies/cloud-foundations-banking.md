@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Cloud Foundations (Banking)"
+icon: "fa-helmet-safety"
 ---
 
 Our client was looking to establish their first workloads in AWS, and wanted to make sure that appropriate foundations were put in place to build on top of. We were there to help them achive this goal.

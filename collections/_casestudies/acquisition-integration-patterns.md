@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Integration Patterns (Acquisition)"
+icon: "fa-diagram-project"
 ---
 
 With any acquisition, sharing of products between customers becomes an important offering. This is the case for many businesses that merge and is something that needs to be solved on an enterprise wide level. The straight and simple solution would have been to do a point to point integration however when long term business goals are aimed at acquiring more businesses over time, a more appropriate solution would be to look at alternative patterns.
