@@ -231,8 +231,12 @@ header.header-small {
 .portfolio-box {
     position: relative;
     display: block;
-    max-width: 650px;
+    max-width: 400px;
     margin: 0 auto;
+    .img-circle {
+        position: relative;
+        margin: 2%;
+    }
     .portfolio-box-caption {
         color: white;
         opacity: 0;
@@ -243,6 +247,7 @@ header.header-small {
         text-align: center;
         width: 100%;
         height: 100%;
+        margin: 2%;
         @include transition-all;
         .portfolio-box-caption-content {
             width: 100%;
