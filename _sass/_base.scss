@@ -155,7 +155,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header2.jpg');
+    background-image: url('../img/header.jpg');
     text-align: center;
     color: white;
 
@@ -179,6 +179,7 @@ header {
                 color: rgba(white, .7);
                 font-size: 16px;
                 margin-bottom: 50px;
+                text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
             }
         }
     }
