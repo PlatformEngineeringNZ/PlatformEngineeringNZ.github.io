@@ -57,10 +57,28 @@
 
 @mixin sans-serif-font()
 {
-	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+	font-family: 'Avenir', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 @mixin serif-font()
 {
 	font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+}
+
+@font-face {
+	font-family: Avenir;
+	src: url("fonts/avenir/Avenir LT Std 35 Light.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Avenir;
+	font-weight: bold;
+	src: url("fonts/avenir/Avenir LT Std 65 Medium.otf") format("opentype");
+}
+
+
+@font-face {
+	font-family: Avenir;
+	font-style: italic;
+	src: url("fonts/avenir/Avenir LT Std 45 Book Oblique.otf") format("opentype");
 }

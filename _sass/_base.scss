@@ -5,7 +5,7 @@ body {
 }
 
 body {
-    @include serif-font;
+    @include sans-serif-font;
 }
 
 hr {
@@ -16,6 +16,10 @@ hr {
 
 hr.light {
     border-color: white;
+}
+
+.bg-dark hr {
+    border-color: $theme-secondary;
 }
 
 a {
@@ -48,7 +52,7 @@ p {
 
 .bg-dark {
     background-color: $theme-dark;
-    color: white;
+    color: $theme-secondary;
 }
 
 .text-faded {
@@ -155,7 +159,7 @@ header {
     min-height: auto;
     @include background-cover;
     background-position: center;
-    background-image: url('../img/header.jpg');
+    background-image: url('../img/triangles.jpg');
     text-align: center;
     color: white;
 
@@ -247,7 +251,8 @@ header.header-small {
         text-align: center;
         width: 100%;
         height: 100%;
-        margin: 2%;
+        margin: 0%;
+        margin-left: 2%;
         @include transition-all;
         .portfolio-box-caption-content {
             width: 100%;
@@ -330,6 +335,10 @@ header.header-small {
 #contact .fa {
     color: $theme-dark;
     font-size: 4em;
+}
+
+.bg-dark a {
+    color: $theme-secondary;
 }
 
 // Extras
