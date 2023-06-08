@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
+   sodipodi:docname="pe-team.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="5.3780641"
+     inkscape:cx="100.87273"
+     inkscape:cy="250.92672"
+     inkscape:window-width="1390"
+     inkscape:window-height="1205"
+     inkscape:window-x="3262"
+     inkscape:window-y="134"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <circle
+       style="fill:#3ac0f9;fill-opacity:1;stroke-width:0.293004"
+       id="path219"
+       cx="26.186735"
+       cy="56.491936"
+       r="7"
+       inkscape:export-filename="text113-5.png"
+       inkscape:export-xdpi="544.28564"
+       inkscape:export-ydpi="544.28564" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.175px;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Bold';text-align:center;text-anchor:middle;fill:#eeeeee;fill-opacity:1;stroke-width:0.264583"
+       x="26.270187"
+       y="57.949181"
+       id="text113"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Bold';text-align:center;text-anchor:middle;fill:#eeeeee;fill-opacity:1;stroke-width:0.264583"
+         x="26.270187"
+         y="57.949181"
+         id="tspan165">PE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:3.52778px;text-align:center;text-anchor:middle;fill:#eeeeee;fill-opacity:1;stroke-width:0.264583"
+       x="26.36795"
+       y="61.20742"
+       id="text113-5"
+       inkscape:export-filename="text113-5.png"
+       inkscape:export-xdpi="116.11427"
+       inkscape:export-ydpi="116.11427"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:Avenir;-inkscape-font-specification:Avenir;text-align:center;text-anchor:middle;fill:#eeeeee;fill-opacity:1;stroke-width:0.264583"
+         x="26.36795"
+         y="61.20742"
+         id="tspan165-7">team</tspan></text>
+    <circle
+       style="fill:#3ac0f9;fill-opacity:1;stroke-width:0.293004"
+       id="path219-2"
+       cx="26.418661"
+       cy="80.092323"
+       r="7"
+       inkscape:export-filename="path219-2.png"
+       inkscape:export-xdpi="116.11427"
+       inkscape:export-ydpi="116.11427" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.175px;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Bold';text-align:center;text-anchor:middle;fill:#eeeeee;fill-opacity:1;stroke-width:0.264583"
+       x="26.452917"
+       y="82.631897"
+       id="text113-2"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.05556px;font-family:'Avenir Next';-inkscape-font-specification:'Avenir Next Bold';text-align:center;text-anchor:middle;fill:#eeeeee;fill-opacity:1;stroke-width:0.264583"
+         x="26.452917"
+         y="82.631897"
+         id="tspan165-6">PE</tspan></text>
+  </g>
+</svg>
