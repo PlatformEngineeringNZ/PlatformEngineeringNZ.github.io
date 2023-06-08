@@ -10,31 +10,21 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container-fluid">
 
-            {% for technology in site.technologies %}
+            <div class="row">
+                {% for technology in site.technologies %}
 
-                <!-- Split into rows of 3 -->
-                {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
-
-                {% if modulo == '0' or forloop.first %}
-                    <div class="row">
-                {% endif %}
-
-                        <div class="col-lg-4 col-md-6 text-center">
-                            <div class="service-box">
-                                <i class="fa fa-4x {{ technology.icon }} wow bounceIn text-primary"></i>
-                                <h3>{{ technology.title }}</h3>
-                                <p class="text-muted">{{ technology.excerpt }}</p>
-                            </div>
-                        </div>
-
-                <!-- New row when we hit 2 -->
-                {% if modulo == '2' or forloop.last %}
+                <div class="col-lg-4 col-sm-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x {{ technology.icon }} wow bounceIn text-primary"></i>
+                        <h3>{{ technology.title }}</h3>
+                        <p class="text-muted">{{ technology.excerpt }}</p>
                     </div>
-                {% endif %}
+                </div>
 
             {% endfor %}
+            </div>
 
         </div>
     </section>
