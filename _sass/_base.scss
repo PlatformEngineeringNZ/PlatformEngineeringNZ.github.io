@@ -305,6 +305,18 @@ header.header-small {
             }
         }
     }
+    @media (hover: none) {
+
+        .portfolio-box-caption {
+            position: relative;
+            height: 130px;
+            opacity: 1;
+        }
+
+        .img-circle {
+            border-radius: 0;
+        }
+    }
 }
 
 .call-to-action {
