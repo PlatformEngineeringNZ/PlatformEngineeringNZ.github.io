@@ -11,15 +11,11 @@ body {
 hr {
     border-color: $theme-primary;
     border-width: 3px;
-    max-width: 50px;
+    max-width: 250px;
 }
 
 hr.light {
     border-color: white;
-}
-
-.bg-dark hr {
-    border-color: $theme-secondary;
 }
 
 a {
