@@ -1,0 +1,32 @@
+<section class="bg-secondary" id="content-wrapper">
+  <div class="container">
+    <div class="container-fluid">
+
+        {% for post in site.posts %}
+
+        <div class="row">
+          <div class="col-lg-1 text-left">
+              <br>
+              <i class="fa fa-4x {{ post.icon }} text-primary"></i>
+          </div>
+          <div class="col-lg-4 text-left">
+              <a href="{{ post.url }}"><h3 class="text-primary">{{ post.title }}</h3></a>
+              <dfn class="text-muted">{{ post.time }}</dfn>
+              <br>
+              <dfn class="text-muted">By {{ post.author }}</dfn>
+          </div>
+      </div>
+
+      <div class="row"></div>
+          <div class="col-lg-12 col-md-3 text-left">
+              <p class="text-muted">{{ post.excerpt }}</p>
+          </div>
+      </div>
+
+      <hr class="primary">
+
+        {% endfor %}
+
+    </div>
+  </div>
+</section>
